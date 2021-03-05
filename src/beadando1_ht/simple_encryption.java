@@ -2,14 +2,11 @@ package beadando1_ht;
 
 
 import java.io.*;
-import java.util.StringTokenizer;
-import java.util.Scanner;
 
 public class simple_encryption {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		
 		
 		BufferedReader br = new BufferedReader (new FileReader("input.txt"));
 		StringBuffer str= new StringBuffer();
